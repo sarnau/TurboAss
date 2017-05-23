@@ -1,10 +1,43 @@
 # Atari ST TurboAss / Bugaboo
 
-Source code for the Atari ST TurboAss and Bugaboo (also known as OMIKRON.Assembler)
-
 This is a collection of the old code base for the TurboAss and Bugaboo, which was first sold commercially under the name OMIKRON.Assembler and later as shareware under the name TurboAss/Bugaboo.
 
-This repository contains the following blobs:
+Features:
+
+  * 68000 assembler, editor and debugger
+  * Compiles up to 1.3 million lines per minute (on a 8MHz 68000)
+  * Syntax check at input!
+  * very powerful editor
+  * source level debugging
+  * does not depend on the operating system
+
+TurboAss Start
+--------------
+![TurboAss About Box](turboassabout.gif)
+
+Bugaboo Start
+-------------
+![Bugaboo](bugaboo.gif)
+
+TurboAss Settings
+-----------------
+![TurboAss Settings](turboasssettings.gif)
+
+TurboAss Source Info
+--------------------
+![TurboAss Source Info](turboassinfo.gif)
+
+TurboAss Assembly
+-----------------
+![TurboAss Assembly](turboassass.gif)
+
+(The "lines per minute" is about 8x higher than on an 8MHz Atari ST, because I did this screenshot in an emulator inside Virtual PC)
+
+Bugaboo source view
+-------------------
+![Bugaboo source view](bugaboolist.gif)
+
+If somebody is still interested, here are the old files. This repository contains the following blobs:
 - TurboAss.asm is the text source of the editor/assembler.
 - Bugaboo.asm is the text source of the debugger.
 - turboass_german_short_manual.txt is the short manual (German) for the applications. The 240 page printed manual (in TeX) is lost, but a PDF scan of the OMIKRON.Assembler manual is part of this repository.
